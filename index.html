@@ -1,47 +1,60 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Gradient Background</title>
+	<title> Background image changer </title>
 	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 </head>
 <body>
 
 <header id="back">
 
+	<div class="col-sm-12">
+		<div class="btn-group">
+			<button type="button" class="btn btn-secondary">change background</button>
+			<button type="button" class="btn btn-secondary dropdown-toggle dropdown-toggle-split" id="dropdownMenuReference" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" data-reference="parent">
+			  <span class="sr-only">Toggle Dropdown</span>
+			</button>
+			<div class="dropdown-menu" aria-labelledby="dropdownMenuReference" >
 	
+			  <a class="dropdown-item" href="#" id="btn1"><img src="https://cdn.pixabay.com/photo/2019/12/10/06/39/night-4685147_960_720.jpg" alt=""> night</a>
+			  <a class="dropdown-item" href="#" id="btn2"><img src="https://cdn.pixabay.com/photo/2019/11/27/12/37/autumn-4656877_960_720.jpg" alt=""> love your life(default)</a>
+			  <a class="dropdown-item" href="#" id="btn3"><img src="https://cdn.pixabay.com/photo/2015/05/31/11/25/desk-791178_960_720.jpg" alt=""> desk</a>
+			  <a class="dropdown-item" href="#" id="btn4"><img src="https://cdn.pixabay.com/photo/2019/12/11/17/34/camera-4688838_960_720.jpg" alt=""> camera</a>
+			
+		  </div>
+	</div>
+	</div> <br>
+   <!-- navigation bar start -->
+  <div class="navigation">
+	  <ul class="main-ul">
+	      <li>home</li>
+	      <li>contact</li>
+	      <li>project</li>
+	      <li>about</li>
+	  </ul>
+  </div><br>
+  <div class="main-heading">
+	  <h1>hello <br>everyone </h1>
+  </div>
 
+<!-- navigation bar end -->
+	
+	
 </header>
 
-<div class="images">
-<button id="btn1"><img src="https://cdn.pixabay.com/photo/2019/12/10/06/39/night-4685147_960_720.jpg" alt="" height="100px" widht="100px"></button>
-<button id="btn2"><img src="https://cdn.pixabay.com/photo/2019/11/27/12/37/autumn-4656877_960_720.jpg" alt="" height="100px" widht="100px"></button>
-<button id="btn3"><img src="https://cdn.pixabay.com/photo/2015/05/31/11/25/desk-791178_960_720.jpg" alt="" height="100px" widht="100px"></button>
-<button id="btn4"><img src="https://cdn.pixabay.com/photo/2019/12/11/17/34/camera-4688838_960_720.jpg" alt="" height="100px" widht="100px"></button>
-<button id="btn5"><img src="https://cdn.pixabay.com/photo/2015/04/20/13/17/work-731198_960_720.jpg" alt="" height="100px" widht="100px"></button>
-<button id="btn6"><img src="https://cdn.pixabay.com/photo/2016/11/19/14/00/code-1839406_960_720.jpg" alt="" height="100px" widht="100px"></button>
-<button id="btn7"><img src="https://cdn.pixabay.com/photo/2017/06/26/08/13/mockup-2443050_960_720.jpg" alt="" height="100px" widht="100px"></button>
-<button id="btn8"><img src="https://cdn.pixabay.com/photo/2017/07/31/11/44/laptop-2557576_960_720.jpg" alt="" height="100px" widht="100px"></button>
-<button id="btn9"><img src="https://cdn.pixabay.com/photo/2016/03/26/13/09/cup-of-coffee-1280537_960_720.jpg" alt="" height="100px" widht="100px"></button>
-<button id="btn10"><img src="https://cdn.pixabay.com/photo/2016/03/26/13/09/notebook-1280538_960_720.jpg" alt="" height="100px" widht="100px"></button>
 
 
 
-
-
-</div>
-
-
-<section class="about">
-	<div class="about">
-
-		<h2>hello everyone</h2>
-		
-		</div>
-
-</section>
-
+<br>
+<br>
+<br>
 
 	<script type="text/javascript" src="script.js"></script>
+	
+	<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
 
 </body>
 </html>
