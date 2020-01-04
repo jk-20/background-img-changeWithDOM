@@ -1,0 +1,19 @@
+{
+  "name": "background_img_generator",
+  "version": "1.0.0",
+  "description": "img_changer",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jk-20/background-img-changeWithDOM.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jk-20/background-img-changeWithDOM/issues"
+  },
+  "homepage": "https://github.com/jk-20/background-img-changeWithDOM#readme"
+}
