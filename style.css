@@ -12,7 +12,7 @@ body {
     background: url(https://cdn.pixabay.com/photo/2019/11/27/12/37/autumn-4656877_960_720.jpg) no-repeat center center fixed; 
     
     background-size: cover;
-    height: 92vh;
+    height: 100vh;
 }
 .navigation{
     display: flex;
